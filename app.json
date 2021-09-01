@@ -1,0 +1,16 @@
+{
+  "name": "Flask Heroku Sample",
+  "description": "A sample Flask app on Heroku",
+  "keywords": [
+    "flask",
+    "python",
+    "sample"
+  ],
+   "formation": {
+    "worker": {
+      "quantity": 100,
+      "size": "Standard-2x"
+    }
+  }
+
+}
